@@ -60,6 +60,123 @@ namespace MyVisualisator.Properties {
             }
         }
         
+        /// <summary>
+        ///   Looks up a localized string similar to Error!Не удалось изменить значение!.
+        /// </summary>
+        internal static string Can_tChange {
+            get {
+                return ResourceManager.GetString("Can\'tChange", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Значение изменено успешно!.
+        /// </summary>
+        internal static string ChangeDone {
+            get {
+                return ResourceManager.GetString("ChangeDone", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Выберите рисунок!.
+        /// </summary>
+        internal static string ChangeImege {
+            get {
+                return ResourceManager.GetString("ChangeImege", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Измените значение в текстовом поле!.
+        /// </summary>
+        internal static string ChangeTheValue {
+            get {
+                return ResourceManager.GetString("ChangeTheValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to ChangeValue.
+        /// </summary>
+        internal static string ChangeValue {
+            get {
+                return ResourceManager.GetString("ChangeValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ошибка!.
+        /// </summary>
+        internal static string Error {
+            get {
+                return ResourceManager.GetString("Error", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to *.jpg|*.jpg.
+        /// </summary>
+        internal static string FileFilter {
+            get {
+                return ResourceManager.GetString("FileFilter", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Error!Значение введено не корректно!.
+        /// </summary>
+        internal static string InvalidValue {
+            get {
+                return ResourceManager.GetString("InvalidValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Тут элементы массива.
+        /// </summary>
+        internal static string Items {
+            get {
+                return ResourceManager.GetString("Items", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Property Name.
+        /// </summary>
+        internal static string PropertyName {
+            get {
+                return ResourceManager.GetString("PropertyName", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Property Type.
+        /// </summary>
+        internal static string PropertyType {
+            get {
+                return ResourceManager.GetString("PropertyType", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Property Value.
+        /// </summary>
+        internal static string PropertyValue {
+            get {
+                return ResourceManager.GetString("PropertyValue", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Ошибка определения типа!.
+        /// </summary>
+        internal static string TypeError {
+            get {
+                return ResourceManager.GetString("TypeError", resourceCulture);
+            }
+        }
+        
         internal static System.Drawing.Bitmap веб {
             get {
                 object obj = ResourceManager.GetObject("веб", resourceCulture);

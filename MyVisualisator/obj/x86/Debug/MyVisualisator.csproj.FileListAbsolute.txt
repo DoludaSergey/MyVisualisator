@@ -8,3 +8,11 @@ D:\MyProjects\TestJobs\MyVisualisator\MyVisualisator\obj\x86\Debug\GenerateResou
 D:\MyProjects\TestJobs\MyVisualisator\MyVisualisator\obj\x86\Debug\MyVisualisator.exe
 D:\MyProjects\TestJobs\MyVisualisator\MyVisualisator\obj\x86\Debug\MyVisualisator.pdb
 D:\MyProjects\TestJobs\MyVisualisator\MyVisualisator\obj\x86\Debug\MyVisualisator.Visualisator.resources
+D:\NewProgects\TestJobs\MyVisualisator\MyVisualisator\obj\x86\Debug\MyVisualisator.exe
+D:\NewProgects\TestJobs\MyVisualisator\MyVisualisator\obj\x86\Debug\MyVisualisator.pdb
+D:\NewProgects\TestJobs\MyVisualisator\MyVisualisator\bin\Debug\MyVisualisator.exe
+D:\NewProgects\TestJobs\MyVisualisator\MyVisualisator\bin\Debug\MyVisualisator.pdb
+D:\NewProgects\TestJobs\MyVisualisator\MyVisualisator\obj\x86\Debug\MyVisualisator.MainForm.resources
+D:\NewProgects\TestJobs\MyVisualisator\MyVisualisator\obj\x86\Debug\MyVisualisator.Properties.Resources.resources
+D:\NewProgects\TestJobs\MyVisualisator\MyVisualisator\obj\x86\Debug\MyVisualisator.Visualisator.resources
+D:\NewProgects\TestJobs\MyVisualisator\MyVisualisator\obj\x86\Debug\MyVisualisator.csproj.GenerateResource.Cache

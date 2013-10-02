@@ -124,4 +124,43 @@
   <data name="цифры" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\цифры.jpeg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Error">
+    <value xml:space="preserve">Ошибка!</value>
+  </data>
+  <data name="TypeError">
+    <value xml:space="preserve">Ошибка определения типа!</value>
+  </data>
+  <data name="ChangeTheValue">
+    <value xml:space="preserve">Измените значение в текстовом поле!</value>
+  </data>
+  <data name="InvalidValue">
+    <value xml:space="preserve">Error!Значение введено не корректно!</value>
+  </data>
+  <data name="Can'tChange">
+    <value xml:space="preserve">Error!Не удалось изменить значение!</value>
+  </data>
+  <data name="ChangeDone">
+    <value xml:space="preserve">Значение изменено успешно!</value>
+  </data>
+  <data name="ChangeImege">
+    <value xml:space="preserve">Выберите рисунок!</value>
+  </data>
+  <data name="Items">
+    <value xml:space="preserve">Тут элементы массива</value>
+  </data>
+  <data name="PropertyValue">
+    <value xml:space="preserve">Property Value</value>
+  </data>
+  <data name="PropertyType">
+    <value xml:space="preserve">Property Type</value>
+  </data>
+  <data name="PropertyName">
+    <value xml:space="preserve">Property Name</value>
+  </data>
+  <data name="ChangeValue">
+    <value xml:space="preserve">ChangeValue</value>
+  </data>
+  <data name="FileFilter">
+    <value xml:space="preserve">*.jpg|*.jpg</value>
+  </data>
 </root>

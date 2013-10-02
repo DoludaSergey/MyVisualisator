@@ -7,7 +7,6 @@ namespace MyVisualisator
     public partial class MainForm : Form
     {
         private Visualisator myVisualisator;
-
  
         public MainForm()
         {
@@ -16,49 +15,34 @@ namespace MyVisualisator
 
         private void start_btn_Click(object sender, EventArgs e)
         {
-            byte[] tempB = { 5, 8, 8, 4 };
-            string[] tempS = { "kjhgjgjg", "ljjlj" ,"fytdtdtyjkhk"};
+            DoIt(); 
+        }
+
+        #region DoIt
+        /// <summary>
+        /// Рабочий метод
+        /// </summary>
+        private void DoIt()
+        {
+            //Исходные данные для свойств экземпляра класса
+            byte[] ByteArray = {5, 8, 8, 4};
+            string[] StringArray = {"kjhgjgjg", "ljjlj", "fytdtdtyjkhk"};
             Bitmap tempBmp = new Bitmap(Properties.Resources.веб);
 
-            SomeClass someClass = new SomeClass("sjjghgdf", 5354, 787, tempB, tempS, tempBmp);
+            //Создание экземпляра класса
+            SomeClass someClass = new SomeClass("Some text", 5354, 787.23, ByteArray, StringArray, tempBmp);
 
-            myVisualisator = new Visualisator(someClass);   
+            //Создание экземпляра визуализатора и передча ему в качестве параметра созданный объект
+            myVisualisator = new Visualisator(someClass);
+            myVisualisator.ShowProperties();
 
-            // Add the controls to the user control.
-            Controls.AddRange(new System.Windows.Forms.Control[] 
-         {
-            myVisualisator
-         });
-
+            // Отображение визуализатора
+            Controls.Add(myVisualisator);
             // Size the user control.
-            Size = new System.Drawing.Size(550, 420);
+            Size = new System.Drawing.Size(665, 400);
+
+            this.start_btn.Visible = false;
         }
-    }
-
-    //Произвольный класс
-    public class SomeClass
-    {
-
-        public string SomeString { get; set; }
-        public long SomeLongNumber { get; set; }
-        public double SomeDoubleNumber { get; set; }
-        public byte[] SomeBytes { get; set; }
-        public string[] Strings { get; set; }
-        public Bitmap SomeBitmap { get; set; }
-
-        public SomeClass(string name, long lng, double dbl, byte[] bytes, string[] strings, Bitmap bmp)
-        {
-            SomeString = name;
-            SomeLongNumber = lng;
-            SomeDoubleNumber = dbl;
-            SomeBytes = bytes;
-            Strings = strings;
-            SomeBitmap = bmp;
-        }
-
-        private void SomePrivateMethod()
-        {
-            Console.WriteLine("Working private method!!!!");
-        }
+        #endregion
     }
 }
